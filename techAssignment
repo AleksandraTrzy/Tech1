@@ -1,0 +1,2166 @@
+1: write something in a file called bay.txt
+
+PS C:\Users\aleks\bayTech> echo Im making the assignment > bay.txt
+
+2: echo 'bay salvation beat pioneer depression' into the file
+
+PS C:\Users\aleks\bayTech> echo ´ bay salvation beat pioneer depression´ > bay.txt
+
+3: output the content of any file in the directory
+
+PS C:\Users\aleks\bayTech> type bay.txt
+bay
+salvation
+beat
+pioneer
+depression
+
+4: delete the last file you created
+
+PS C:\Users\aleks\bayTech> del bay.txt
+
+5: create a file called rain.txt. Put the text 'proportion stock on terminal honor' in it and copy it so there is also a responsibility.txt with same content
+
+PS C:\Users\aleks\bayTech> cd . > rain.txt
+PS C:\Users\aleks\bayTech> echo proportion stock on terminal honor > rain.txt
+PS C:\Users\aleks\bayTech> cd . > responsibility.txt
+PS C:\Users\aleks\bayTech> copy rain.txt responsibility.txt
+
+6: delete the last file you created
+
+PS C:\Users\aleks\bayTech> del responsibility.txt
+
+7: output who the active user is
+
+PS C:\Users\aleks\bayTech> whoami
+laptop-vt2lpb20\aleks
+
+8: create a file called depression.txt and rename it so that it's called regret.txt instead. Hint: This should be done in 2 commands
+
+PS C:\Users\aleks\bayTech> cd . > depression.txt
+PS C:\Users\aleks\bayTech> mv depression.txt regret.txt
+
+9: write something in a file called evaluate.txt
+
+PS C:\Users\aleks\bayTech> cd . > evaluate.txt
+PS C:\Users\aleks\bayTech> echo Today is Valentine´s Day! > evaluate.txt
+
+10: output what's in the directory
+
+PS C:\Users\aleks\bayTech> ls
+
+
+    Directory: C:\Users\aleks\bayTech
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/15/2022   1:24 PM             62 evaluate.txt
+-a----         2/15/2022   1:23 PM             82 rain.txt
+-a----         2/15/2022   1:24 PM              0 regret.txt
+
+11: output the full path you are on
+
+PS C:\Users\aleks\bayTech> pwd
+
+Path
+----
+C:\Users\aleks\bayTech
+
+12: echo 'rider sister shot depression on' into the file
+
+PS C:\Users\aleks\bayTech> echo rider sister shot depression on > empty.txt
+
+13: output hidden files
+
+PS C:\WINDOWS\system32> attrib -h -r -s /s /d C:\*.*
+
+14: create two directories pen and salvation and move into salvation
+
+PS C:\WINDOWS\system32> mkdir pen
+
+
+    Directory: C:\WINDOWS\system32
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   1:40 PM                pen
+
+
+PS C:\WINDOWS\system32> mkdir salvation
+
+
+    Directory: C:\WINDOWS\system32
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   1:40 PM                salvation
+
+
+PS C:\WINDOWS\system32> cd salvation
+
+15: output what's in the directory
+
+PS C:\WINDOWS\system32\salvation> ls
+PS C:\WINDOWS\system32\salvation>
+
+16: delete the last file you created
+
+PS C:\Users\aleks> cd bayTech
+PS C:\Users\aleks\bayTech> del evaluate.txt
+
+17: output the content of any file in the directory
+
+PS C:\Users\aleks\bayTech> type rain.txt
+proportion
+stock
+on
+terminal
+honor
+
+18: output the sizes of the files in the directory
+
+PS C:\Users\aleks\bayTech> ls
+
+
+    Directory: C:\Users\aleks\bayTech
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/15/2022   1:26 PM             76 empty.txt
+-a----         2/15/2022   1:23 PM             82 rain.txt
+-a----         2/15/2022   1:24 PM              0 regret.txt
+This command should show the size as well, except that I cannot find another one. 
+
+19: create a file called support.txt and rename it so that it's called bay.txt instead. Hint: This should be done in 2 commands
+
+PS C:\Users\aleks\bayTech> cd . > support.txt
+PS C:\Users\aleks\bayTech> mv support.txt bay.txt
+
+20: write something in a file called appreciate.txt
+
+PS C:\Users\aleks\bayTech> echo My day is going great > appreciate.txt
+
+21: create a file called ditch.txt and immediately delete it
+
+PS C:\Users\aleks\bayTech> cd . > ditch.txt
+PS C:\Users\aleks\bayTech> del ditch.txt
+
+22: delete the last file you created
+
+PS C:\Users\aleks\bayTech> del appreciate.txt
+
+23: delete the last file you created
+
+PS C:\Users\aleks\bayTech> del bay.txt
+
+24: create a file called beat.txt. Put the text 'discover rider responsibility shot advantage' in it and copy it so there is also a rain.txt with same content
+
+PS C:\Users\aleks\bayTech> cd . > beat.txt
+PS C:\Users\aleks\bayTech> echo discover rider responsibility shot advantage > beat.txt
+PS C:\Users\aleks\bayTech> cd . > rain.txt
+PS C:\Users\aleks\bayTech> copy beat.txt rain.txt
+
+25: create a directory discover and move into the directory
+
+PS C:\Users\aleks> mkdir discover
+
+
+    Directory: C:\Users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   3:22 PM                discover
+
+
+PS C:\Users\aleks> cd discover
+PS C:\Users\aleks\discover>
+
+26: output hidden files
+
+PS C:\WINDOWS\system32> attrib -h -r -s /s /d C:\*.*
+
+27: move two folders up
+
+PS C:\Users\aleks\discover> cd ../../
+
+28: move one level up
+
+PS C:\Users> cd..
+
+29: output hidden files
+
+PS C:\WINDOWS\system32> attrib -h -r -s /s /d C:\*.*
+
+30: output hidden files
+
+PS C:\WINDOWS\system32> attrib -h -r -s /s /d C:\*.*
+
+31: delete the last file you created
+
+PS C:\Users\aleks\bayTech> del beat.txt
+
+32: open a file in the terminal and see the content
+
+PS C:\Users\aleks\bayTech> type rain.txt
+discover
+rider
+responsibility
+shot
+advantage
+
+33: output the content of any file in the directory
+
+PS C:\Users\aleks\bayTech> type rain.txt
+discover
+rider
+responsibility
+shot
+advantage
+
+34: output who the active user is
+
+PS C:\Users\aleks\bayTech> whoami
+laptop-vt2lpb20\aleks
+
+35: write something in a file called interference.txt
+
+PS C:\Users\aleks\bayTech> echo Im going shopping > interference.txt
+
+36: create a file called responsibility.txt. Put the text 'speculate rain rider pray responsibility' in it and copy it so there is also a excuse.txt with same content
+
+PS C:\Users\aleks\bayTech> cd . > responsibility.txt
+PS C:\Users\aleks\bayTech> echo speculate rain rider pray responsibility >  responsibility.txt
+PS C:\Users\aleks\bayTech> cd . >excuse.txt
+PS C:\Users\aleks\bayTech> copy responsibility.txt excuse.txt
+
+37: echo 'cater difficulty cater identity advantage' into the file
+
+PS C:\Users\aleks\bayTech> echo cater difficulty cater identity advantage > excuse.txt
+
+38: move two folders up
+
+PS C:\Users\aleks\bayTech> cd ../../
+
+39: delete the last folder you created
+
+PS C:\Users\aleks\bayTech> del excuse.txt
+
+40: output who the active user is
+
+PS C:\Users\aleks\bayTech> whoami
+laptop-vt2lpb20\aleks
+
+41: delete the last folder you created
+
+PS C:\Users\aleks\bayTech> del responsibility.txt
+
+42: output what's in the directory
+
+PS C:\Users\aleks\bayTech> ls
+
+
+    Directory: C:\Users\aleks\bayTech
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/15/2022   1:26 PM             76 empty.txt
+-a----         2/15/2022   3:29 PM             44 interference.txt
+-a----         2/15/2022   3:20 PM            102 rain.txt
+-a----         2/15/2022   1:24 PM              0 regret.txt
+
+
+43: delete the last file you created
+
+PS C:\Users\aleks\bayTech> del empty.txt
+
+44: create a file called excuse.txt
+
+PS C:\Users\aleks\bayTech> cd . > excuse.txt
+
+45: output the sizes of the files in the directory
+
+PS C:\Users\aleks\bayTech> ls
+
+
+    Directory: C:\Users\aleks\bayTech
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/15/2022   3:34 PM              0 excuse.txt
+-a----         2/15/2022   3:29 PM             44 interference.txt
+-a----         2/15/2022   3:20 PM            102 rain.txt
+-a----         2/15/2022   1:24 PM              0 regret.txt
+This command should show the size as well, except that I cannot find another one. 
+
+46: create a file called interference.txt and rename it so that it's called cater.txt instead. Hint: This should be done in 2 commands
+
+PS C:\Users\aleks\bayTech> cd . > interference.txt
+PS C:\Users\aleks\bayTech> mv interference.txt cater.txt
+
+47: echo 'advice advantage cater abortion recession' into the file
+
+PS C:\Users\aleks\bayTech> echo advice advantage cater abortion recession > cater.txt
+
+48: create a file called advice.txt. Put the text 'honor architecture pray depression salvation' in it and copy it so there is also a pioneer.txt with same content
+
+PS C:\Users\aleks\bayTech> cd . > advice.txt
+PS C:\Users\aleks\bayTech> echo honor architecture pray depression salvation > advice.txt
+PS C:\Users\aleks\bayTech> copy advice.txt pioneer.txt
+
+49: move one level up
+
+PS C:\Users\aleks\bayTech> cd..
+
+50: create a file called sister.txt
+
+PS C:\Users\aleks\bayTech> cd . > sister.txt
+
+51: output what's in the directory
+
+PS C:\Users\aleks\bayTech> ls
+
+
+    Directory: C:\Users\aleks\bayTech
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/15/2022   3:37 PM            102 advice.txt
+-a----         2/15/2022   3:36 PM             96 cater.txt
+-a----         2/15/2022   3:34 PM              0 excuse.txt
+-a----         2/15/2022   3:37 PM            102 pioneer.txt
+-a----         2/15/2022   3:20 PM            102 rain.txt
+-a----         2/15/2022   1:24 PM              0 regret.txt
+-a----         2/15/2022   3:38 PM              0 sister.txt
+
+52: if there are any directories in the folder then move inside any one of them
+
+S C:\Users\aleks> cd Desktop
+
+53: create two directories discover and cater and move into cater
+
+(Discover already exists:)
+
+PS C:\Users\aleks> mkdir discover
+mkdir : An item with the specified name C:\Users\aleks\discover already exists.
+At line:1 char:1
++ mkdir discover
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\aleks\discover:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\aleks> mkdir cater
+
+
+    Directory: C:\Users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   3:39 PM                cater
+
+
+PS C:\Users\aleks> cd cater
+
+54: delete the last file you created
+
+PS C:\Users\aleks\bayTech> del sister.txt
+
+55: move one level up
+
+PS C:\Users\aleks\bayTech> cd..
+
+56: output who the active user is
+
+PS C:\Users\aleks> whoami
+laptop-vt2lpb20\aleks
+
+57: move two folders up
+
+PS C:\Users\aleks> cd ../../
+
+58: delete the last folder you created
+
+PS C:\users\aleks\bayTech> del regret.txt
+
+59: create two directories needle and identity and move into identity
+
+PS C:\users\aleks\bayTech> mkdir needle
+
+
+    Directory: C:\users\aleks\bayTech
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   3:44 PM                needle
+
+
+PS C:\users\aleks\bayTech> mkdir identity
+
+
+    Directory: C:\users\aleks\bayTech
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   3:44 PM                identity
+
+
+PS C:\users\aleks\bayTech> cd identity
+
+60: create a file called nerve.txt and rename it so that it's called proportion.txt instead. Hint: This should be done in 2 commands
+
+PS C:\users\aleks\bayTech> cd . > nerve.txt
+PS C:\users\aleks\bayTech> mv nerve.txt  proportion.txt
+
+61: echo 'degree correspondence needle plane discover' into the file
+
+PS C:\users\aleks\bayTech> echo degree correspondence needle plane discover > proportion.txt
+
+62: write something in a file called surprise.txt
+
+PS C:\users\aleks\bayTech> echo I work at a gym > surprise.txt
+
+63: output who the active user is
+
+PS C:\users\aleks\bayTech> whoami
+laptop-vt2lpb20\aleks
+
+64: open a file in the terminal and see the content
+
+PS C:\users\aleks\bayTech> type surprise.txt
+I
+work
+at
+a
+gym
+
+65: move two folders up
+
+PS C:\users\aleks\bayTech> cd ../../
+PS C:\users>
+
+66: create a file called proportion.txt
+
+PS C:\users\aleks\bayTech> cd . >proportion.txt
+
+67: create a file called regret.txt. Put the text 'difficulty needle proportion appreciate excuse' in it and copy it so there is also a abortion.txt with same content
+
+PS C:\users\aleks\bayTech> cd . > regret.txt
+PS C:\users\aleks\bayTech> echo difficulty needle proportion appreciate excuse > regret.txt
+PS C:\users\aleks\bayTech> copy regret.txt abortion.txt
+
+68: output the content of any file in the directory
+
+PS C:\users\aleks\bayTech> type abortion.txt
+difficulty
+needle
+proportion
+appreciate
+excuse
+
+69: delete the last folder you created
+
+PS C:\users\aleks\bayTech> del abortion.txt
+
+70: open a file in the terminal and see the content
+
+PS C:\users\aleks\bayTech> type surprise.txt
+I
+work
+at
+a
+gym
+
+71: move one level up
+
+PS C:\users\aleks\bayTech> cd..
+PS C:\users\aleks>
+
+72: create a directory experienced and move into the directory
+
+PS C:\users\aleks> mkdir experienced
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:00 PM                experienced
+
+
+PS C:\users\aleks> cd experienced
+PS C:\users\aleks\experienced>
+
+73: create a directory pioneer and move into the directory
+
+PS C:\users\aleks> mkdir pioneer
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:00 PM                pioneer
+
+
+PS C:\users\aleks> cd pioneer
+PS C:\users\aleks\pioneer>
+
+74: if there are any directories in the folder then move inside any one of them
+
+PS C:\users\aleks\pioneer> cd..
+PS C:\users\aleks> cd experienced
+PS C:\users\aleks\experienced>
+
+75: create two directories pioneer and nerve and move into nerve
+
+PS C:\users\aleks\experienced> mkdir pioneer
+
+
+    Directory: C:\users\aleks\experienced
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:01 PM                pioneer
+
+
+PS C:\users\aleks\experienced> mkdir nerve
+
+
+    Directory: C:\users\aleks\experienced
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:01 PM                nerve
+
+
+PS C:\users\aleks\experienced> cd nerve
+
+76: if there are any directories in the folder then move inside any one of them
+
+PS C:\users\aleks\pioneer> cd..
+PS C:\users\aleks> cd experienced
+PS C:\users\aleks\experienced>
+
+77: delete the last file you created
+
+S C:\users\aleks\bayTech> del regret.txt
+
+78: move two folders up
+
+PS C:\users\aleks\bayTech> cd ../../
+PS C:\users>
+
+79: output hidden files
+
+PS C:\users\aleks\speculate> mv bay.txt surprise.txt
+
+80: output the content of any file in the directory
+
+PS C:\users\aleks\bayTech> type advice.txt
+honor
+architecture
+pray
+depression
+salvation
+
+81: move one level up
+
+PS C:\users\aleks\bayTech> cd..
+PS C:\users\aleks>
+
+82: output who the active user is
+
+PS C:\users\aleks> whoami
+laptop-vt2lpb20\aleks
+
+83: create a directory speculate and move into the directory
+
+PS C:\users\aleks> mkdir speculate
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:05 PM                speculate
+
+
+PS C:\users\aleks> cd speculate
+PS C:\users\aleks\speculate>
+
+84: create a file called medal.txt. Put the text 'shallow honor stock on difficulty' in it and copy it so there is also a proportion.txt with same content
+
+PS C:\users\aleks\speculate> cd . > medal.txt
+PS C:\users\aleks\speculate> echo shallow honor stock on difficulty > medal.txt
+PS C:\users\aleks\speculate> copy medal.txt proportion.txt
+
+85: create a file called evaluate.txt
+
+PS C:\users\aleks\speculate> cd . > evaluate.txt
+
+86: move one level up
+
+PS C:\users\aleks\speculate> cd..
+PS C:\users\aleks>
+
+87: create a file called bay.txt and rename it so that it's called surprise.txt instead. Hint: This should be done in 2 commands
+
+PS C:\users\aleks\speculate> cd . > bay.txt
+PS C:\users\aleks\speculate> mv bay.txt surprise.txt
+
+88: output hidden files
+
+PS C:\users\aleks\speculate> mv bay.txt surprise.txt
+
+89: create two directories stock and salvation and move into salvation
+
+PS C:\users\aleks> mkdir stock
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:08 PM                stock
+PS C:\users\aleks> mkdir salvation
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:08 PM                salvation
+
+
+PS C:\users\aleks> cd salvation
+PS C:\users\aleks\salvation>
+
+90: output what's in the directory
+
+PS C:\users\aleks\salvation> ls
+PS C:\users\aleks\salvation>
+
+91: create two directories bay and degree and move into degree
+
+PS C:\users\aleks> mkdir bay
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:09 PM                bay
+
+
+PS C:\users\aleks> mkdir degree
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:09 PM                degree
+
+
+PS C:\users\aleks> cd degree
+PS C:\users\aleks\degree>
+
+92: create a directory cousin and move into the directory
+
+PS C:\users\aleks> mkdir cousin
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:10 PM                cousin
+
+
+PS C:\users\aleks> cd cousin
+PS C:\users\aleks\cousin>
+
+93: create two directories salvation and surprise and move into surprise
+
+PS C:\users\aleks> mkdir salvation
+mkdir : An item with the specified name C:\users\aleks\salvation already exists.
+At line:1 char:1
++ mkdir salvation
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\users\aleks\salvation:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\users\aleks> mkdir surprise
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:10 PM                surprise
+
+
+PS C:\users\aleks> cd surprise
+PS C:\users\aleks\surprise>
+
+94: delete the last folder you created
+
+PS C:\users\aleks\bayTech> del surprise.txt
+
+95: output the sizes of the files in the directory
+
+PS C:\users\aleks\bayTech> dir
+
+
+    Directory: C:\users\aleks\bayTech
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   3:44 PM                identity
+d-----         2/15/2022   3:44 PM                needle
+-a----         2/15/2022   3:37 PM            102 advice.txt
+-a----         2/15/2022   3:36 PM             96 cater.txt
+-a----         2/15/2022   3:34 PM              0 excuse.txt
+-a----         2/15/2022   3:37 PM            102 pioneer.txt
+-a----         2/15/2022   3:48 PM              0 proportion.txt
+-a----         2/15/2022   3:20 PM            102 rain.txt
+This command should show the size as well, except that I cannot find another one.
+
+96: output what's in the directory
+
+PS C:\users\aleks\bayTech> dir
+
+
+    Directory: C:\users\aleks\bayTech
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   3:44 PM                identity
+d-----         2/15/2022   3:44 PM                needle
+-a----         2/15/2022   3:37 PM            102 advice.txt
+-a----         2/15/2022   3:36 PM             96 cater.txt
+-a----         2/15/2022   3:34 PM              0 excuse.txt
+-a----         2/15/2022   3:37 PM            102 pioneer.txt
+-a----         2/15/2022   3:48 PM              0 proportion.txt
+-a----         2/15/2022   3:20 PM            102 rain.txt
+
+97: create a file called degree.txt and immediately delete it
+
+PS C:\users\aleks\bayTech> cd . > degree.txt
+PS C:\users\aleks\bayTech> del degree.txt
+
+98: create a file called pioneer.txt and immediately delete it
+
+PS C:\users\aleks\bayTech> cd . > pioneer.txt
+PS C:\users\aleks\bayTech> del pioneer.txt
+
+99: move two folders up
+
+PS C:\users\aleks\bayTech> cd ../../
+PS C:\users>
+
+100: output the content of any file in the directory
+
+PS C:\users\aleks\bayTech> type cater.txt
+advice
+advantage
+cater
+abortion
+recession
+
+101: if there are any directories in the folder then move inside any one of them
+
+PS C:\users\aleks\bayTech> cd..
+PS C:\users\aleks> ls
+PS C:\users\aleks> cd surprise
+PS C:\users\aleks\surprise>
+
+102: output the sizes of the files in the directory
+
+PS C:\users\aleks\surprise> dir
+PS C:\users\aleks\surprise>
+
+103: create a file called stock.txt. Put the text 'medal appreciate terminal proportion responsibility' in it and copy it so there is also a correspondence.txt with same content
+
+PS C:\users\aleks\surprise> cd . > stock.txt
+PS C:\users\aleks\surprise> echo medal appreciate terminal proportion responsibility > stock.txt
+PS C:\users\aleks\surprise> copy stock.txt correspondence.txt
+
+104: move one level up
+
+PS C:\users\aleks\surprise> cd..
+PS C:\users\aleks>
+
+105: if there are any directories in the folder then move inside any one of them
+
+PS C:\users\aleks> cd bayTech
+PS C:\users\aleks\bayTech>
+
+106: create two directories advantage and plane and move into plane
+
+PS C:\users\aleks> mkdir advantage
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:16 PM                advantage
+
+
+PS C:\users\aleks> mkdir plane
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:16 PM                plane
+
+
+PS C:\users\aleks>  cd plane
+PS C:\users\aleks\plane>
+
+107: output what's in the directory
+
+PS C:\users\aleks\plane> ls
+PS C:\users\aleks\plane>
+
+108: create a directory hill and move into the directory
+
+PS C:\users\aleks\plane> ls
+PS C:\users\aleks\plane>
+
+109: echo 'cousin needle interference depression surprise' into the file
+
+PS C:\users\aleks\hill> echo cousin needle interference depression surprise > text.txt
+PS C:\users\aleks\hill>
+
+110: output what's in the directory
+
+PS C:\users\aleks\hill> ls
+
+
+    Directory: C:\users\aleks\hill
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/15/2022   4:17 PM            106 text.txt
+
+111: output who the active user is
+
+PS C:\users\aleks\hill> whoami
+laptop-vt2lpb20\aleks
+
+112: create a directory excuse and move into the directory
+
+PS C:\users\aleks> mkdir excuse
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:17 PM                excuse
+
+
+PS C:\users\aleks> cd excuse
+PS C:\users\aleks\excuse>
+
+113: move two folders up
+
+PS C:\users\aleks\excuse> cd ../../
+PS C:\users>
+
+114: create a file called advantage.txt. Put the text 'evaluate advice plane recommend surprise' in it and copy it so there is also a stock.txt with same content
+
+PS C:\users\aleks> cd . > advantage.txt
+PS C:\users\aleks> echo evaluate advice plane recommend surprise > advantage.txt
+PS C:\users\aleks> copy advantage.txt stock.txt
+
+115: output hidden files
+
+PS C:\users\aleks> attrib -h -r -s /s /d C:\*.*
+
+116: output the content of any file in the directory
+
+PS C:\users\aleks\bayTech> type rain.txt
+discover
+rider
+responsibility
+shot
+advantage
+
+117: create a file called difficulty.txt
+
+PS C:\users\aleks\bayTech> cd . > difficulty.txt
+
+118: move one level up
+
+PS C:\users\aleks\bayTech> cd..
+
+119: echo 'advice evaluate sister identity recession' into the file
+
+PS C:\users\aleks> echo advice evaluate sister identity recession > empty.txt
+
+120: create a file called responsibility.txt and immediately delete it
+
+PS C:\users\aleks> cd . > responsibility.txt
+PS C:\users\aleks> del responsibility.txt
+
+121: output the full path you are on
+
+PS C:\users\aleks> pwd
+
+Path
+----
+C:\users\aleks
+
+122: output what's in the directory
+
+PS C:\users\aleks> ls
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         8/24/2021  10:28 AM                .android
+d-----         9/17/2021  11:40 AM                .cache
+d-----         9/17/2021  11:40 AM                .eclipse
+d-----         8/25/2021   9:10 AM                .jdks
+d-----         2/21/2021   6:50 PM                .Origin
+d-----        12/18/2021   7:18 PM                .p2
+d-----         2/21/2021   6:50 PM                .QtWebEngineProcess
+d-----         2/19/2021  11:23 AM                3D Objects
+d-----         2/15/2022   4:16 PM                advantage
+d-----         3/27/2021   1:07 PM                ansel
+d-----        10/21/2021  11:05 PM                AppData
+d-----         2/15/2022   4:09 PM                bay
+d-----         2/15/2022   4:23 PM                bayTech
+d-----         2/15/2022   3:39 PM                cater
+d-----        10/21/2021  11:09 PM                Contacts
+d-----         2/15/2022   4:10 PM                cousin
+d-----         2/15/2022   4:09 PM                degree
+d-----          2/9/2022  11:03 AM                Desktop
+d-----         2/15/2022   3:22 PM                discover
+d-----          2/4/2022   5:52 PM                Documents
+d-----          2/9/2022   2:17 PM                Downloads
+d-----         9/17/2021  11:25 AM                eclipse
+d-----         12/7/2021   4:26 PM                eclipse-workspace
+d-----         2/15/2022   4:17 PM                excuse
+d-----         2/15/2022   4:01 PM                experienced
+d-----        10/21/2021  11:09 PM                Favorites
+d-----          2/4/2022  10:20 AM                gittest
+d-----         2/15/2022   4:17 PM                hill
+d-----          2/3/2022   6:34 PM                IdeaProjects
+d-----         2/19/2021   3:16 PM                IntelGraphicsProfiles
+d-----        10/21/2021  11:09 PM                Links
+d-----        10/21/2021  11:09 PM                Music
+da---l         2/15/2022  12:22 PM                OneDrive
+d-----        10/21/2021  11:09 PM                Pictures
+d-----         2/15/2022   4:00 PM                pioneer
+d-----         2/15/2022   4:16 PM                plane
+d-----         2/15/2022   4:08 PM                salvation
+d-----        10/21/2021  11:09 PM                Saved Games
+d-----        10/21/2021  11:09 PM                Searches
+d-----         2/15/2022   4:07 PM                speculate
+d-----         2/15/2022   4:08 PM                sslvation
+d-----         2/15/2022   4:08 PM                stock
+d-----         2/15/2022   4:15 PM                surprise
+d-----        10/21/2021  11:09 PM                Videos
+-a----          2/4/2022  11:05 AM            472 .bash_history
+-a----        11/30/2021   3:04 PM             63 .gitconfig
+-a----         2/15/2022   4:19 PM             94 advantage.txt
+-a----         8/18/2021  10:07 PM            151 BullseyeCoverageError.txt
+-a----         2/15/2022   4:24 PM             96 empty.txt
+-a----          2/3/2022   5:24 PM        7864320 NTUSER.DAT
+-a----        10/21/2021  10:52 PM        1572864 ntuser.dat.LOG1
+-a----        10/21/2021  10:52 PM        1912832 ntuser.dat.LOG2
+-a----         2/15/2022   1:32 PM        1048576 NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.0.regtr
+                                                  ans-ms
+-a----         1/30/2022   1:12 PM        1048576 NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.1.regtr
+                                                  ans-ms
+-a----         1/30/2022   1:12 PM        1048576 NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.2.regtr
+                                                  ans-ms
+-a----         2/15/2022   1:32 PM          65536 NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.blf
+-a----        10/21/2021  10:52 PM          65536 NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TM.blf
+-a----        10/21/2021  10:52 PM         524288 NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer
+                                                  00000000000000000001.regtrans-ms
+-a----        10/21/2021  10:52 PM         524288 NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer
+                                                  00000000000000000002.regtrans-ms
+------        10/21/2021  11:08 PM             20 ntuser.ini
+-a----         2/15/2022   4:19 PM             94 stock.txt
+
+123: output hidden files
+
+PS C:\users\aleks> attrib -h -r -s /s /d C:\*.*
+
+124: move two folders up
+
+PS C:\users\aleks> cd ../../
+PS C:\>
+
+125: output who the active user is
+
+PS C:\> whoami
+laptop-vt2lpb20\aleks
+
+126: echo 'proportion stock cousin relative pray' into the file
+
+PS C:\> cd users
+PS C:\users> cd aleks
+PS C:\users\aleks>  echo proportion stock cousin relative pray > random.txt
+
+127: write something in a file called discover.txt
+
+PS C:\users\aleks> echo I didnt have lectures today > discover.txt
+
+128: output who the active user is
+
+PS C:\users\aleks> whoami
+laptop-vt2lpb20\aleks
+
+129: output what's in the directory
+
+PS C:\users\aleks> ls
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         8/24/2021  10:28 AM                .android
+d-----         9/17/2021  11:40 AM                .cache
+d-----         9/17/2021  11:40 AM                .eclipse
+d-----         8/25/2021   9:10 AM                .jdks
+d-----         2/21/2021   6:50 PM                .Origin
+d-----        12/18/2021   7:18 PM                .p2
+d-----         2/21/2021   6:50 PM                .QtWebEngineProcess
+d-----         2/19/2021  11:23 AM                3D Objects
+d-----         2/15/2022   4:16 PM                advantage
+d-----         3/27/2021   1:07 PM                ansel
+d-----        10/21/2021  11:05 PM                AppData
+d-----         2/15/2022   4:09 PM                bay
+d-----         2/15/2022   4:23 PM                bayTech
+d-----         2/15/2022   3:39 PM                cater
+d-----        10/21/2021  11:09 PM                Contacts
+d-----         2/15/2022   4:10 PM                cousin
+d-----         2/15/2022   4:09 PM                degree
+d-----          2/9/2022  11:03 AM                Desktop
+d-----         2/15/2022   3:22 PM                discover
+d-----          2/4/2022   5:52 PM                Documents
+d-----          2/9/2022   2:17 PM                Downloads
+d-----         9/17/2021  11:25 AM                eclipse
+d-----         12/7/2021   4:26 PM                eclipse-workspace
+d-----         2/15/2022   4:17 PM                excuse
+d-----         2/15/2022   4:01 PM                experienced
+d-----        10/21/2021  11:09 PM                Favorites
+d-----          2/4/2022  10:20 AM                gittest
+d-----         2/15/2022   4:17 PM                hill
+d-----          2/3/2022   6:34 PM                IdeaProjects
+d-----         2/19/2021   3:16 PM                IntelGraphicsProfiles
+d-----        10/21/2021  11:09 PM                Links
+d-----        10/21/2021  11:09 PM                Music
+da---l         2/15/2022  12:22 PM                OneDrive
+d-----        10/21/2021  11:09 PM                Pictures
+d-----         2/15/2022   4:00 PM                pioneer
+d-----         2/15/2022   4:16 PM                plane
+d-----         2/15/2022   4:08 PM                salvation
+d-----        10/21/2021  11:09 PM                Saved Games
+d-----        10/21/2021  11:09 PM                Searches
+d-----         2/15/2022   4:07 PM                speculate
+d-----         2/15/2022   4:08 PM                sslvation
+d-----         2/15/2022   4:08 PM                stock
+d-----         2/15/2022   4:15 PM                surprise
+d-----        10/21/2021  11:09 PM                Videos
+-a----          2/4/2022  11:05 AM            472 .bash_history
+-a----        11/30/2021   3:04 PM             63 .gitconfig
+-a----         2/15/2022   4:19 PM             94 advantage.txt
+-a----         8/18/2021  10:07 PM            151 BullseyeCoverageError.txt
+-a----         2/15/2022   4:27 PM             68 discover.txt
+-a----         2/15/2022   4:24 PM             96 empty.txt
+-a----          2/3/2022   5:24 PM        7864320 NTUSER.DAT
+-a----        10/21/2021  10:52 PM        1572864 ntuser.dat.LOG1
+-a----        10/21/2021  10:52 PM        1912832 ntuser.dat.LOG2
+-a----         2/15/2022   1:32 PM        1048576 NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.0.regtr
+                                                  ans-ms
+-a----         1/30/2022   1:12 PM        1048576 NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.1.regtr
+                                                  ans-ms
+-a----         1/30/2022   1:12 PM        1048576 NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.2.regtr
+                                                  ans-ms
+-a----         2/15/2022   1:32 PM          65536 NTUSER.DAT{1c2b59c5-c5f5-11eb-bacb-000d3a96488e}.TxR.blf
+-a----        10/21/2021  10:52 PM          65536 NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TM.blf
+-a----        10/21/2021  10:52 PM         524288 NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer
+                                                  00000000000000000001.regtrans-ms
+-a----        10/21/2021  10:52 PM         524288 NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer
+                                                  00000000000000000002.regtrans-ms
+------        10/21/2021  11:08 PM             20 ntuser.ini
+-a----         2/15/2022   4:27 PM              0 random.txt
+-a----         2/15/2022   4:19 PM             94 stock.txt
+
+130: create a file called correspondence.txt and immediately delete it
+
+PS C:\users\aleks> cd . > correspondence.txt
+PS C:\users\aleks> del correspondence.txt
+
+131: output hidden files
+
+PS C:\users\aleks> attrib -h -r -s /s /d C:\*.*
+
+132: create a directory beat and move into the directory
+
+PS C:\users\aleks> mkdir beat
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:29 PM                beat
+
+
+PS C:\users\aleks> cd beat
+PS C:\users\aleks\beat>
+
+133: output who the active user is
+
+PS C:\users\aleks> whoami
+laptop-vt2lpb20\aleks
+
+134: write something in a file called bay.txt
+
+PS C:\users\aleks\beat> echo Today is sunny and warm day > bay.txt
+
+135: output hidden files
+
+PS C:\users\aleks> attrib -h -r -s /s /d C:\*.*
+
+136: move two folders up
+
+PS C:\users\aleks\beat> cd ../../
+PS C:\users>
+
+137: delete the last file you created
+
+PS C:\users> cd aleks
+PS C:\users\aleks> del stock.txt
+
+138: create a directory correspondence and move into the directory
+
+PS C:\users\aleks> mkdir correspondence
+
+
+    Directory: C:\users\aleks
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:31 PM                correspondence
+
+
+PS C:\users\aleks> cd correspondence
+PS C:\users\aleks\correspondence>
+
+139: output the sizes of the files in the directory
+
+PS C:\users\aleks\correspondence> dir
+PS C:\users\aleks\correspondence>
+
+(It is empty)
+
+140: write something in a file called architecture.txt
+
+PS C:\users\aleks\correspondence> echo Architecture is interesting > architecture.txt
+
+141: write something in a file called recession.txt
+
+PS C:\users\aleks\correspondence> echo Soon holidays! > recession.txt
+
+142: open a file in the terminal and see the content
+
+PS C:\users\aleks\correspondence> type recession.txt
+Soon
+holidays!
+
+143: delete the last file you created
+
+PS C:\users\aleks\correspondence> del recession.txt
+
+144: echo 'evaluate discover cousin degree plane' into the file
+
+PS C:\users\aleks\correspondence> echo evaluate discover cousin degree plane > plane.txt
+
+145: delete the last folder you created
+
+PS C:\users\aleks\correspondence> cd..
+PS C:\users\aleks> rmdir correspondence
+
+Confirm
+The item at C:\users\aleks\correspondence has children and the Recurse parameter was not specified. If you
+continue, all children will be removed with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): Y
+PS C:\users\aleks>
+
+146: output who the active user is
+
+PS C:\users\aleks> whoami
+laptop-vt2lpb20\aleks
+
+147: move one level up
+
+PS C:\users\aleks> cd..
+PS C:\users>
+
+148: move one level up
+
+PS C:\users> cd..
+PS C:\>
+
+149: output hidden files
+
+PS C:\> attrib -h -r -s /s /d C:\*.*
+
+150: output what's in the directory
+
+PS C:\> dir
+
+
+    Directory: C:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/26/2022   6:43 PM                hpswsetup
+d-----         2/15/2022  12:22 PM                Intel
+d-----          6/5/2021   2:10 PM                PerfLogs
+d-r---          2/7/2022   6:54 PM                Program Files
+d-r---          2/7/2022   6:54 PM                Program Files (x86)
+d-----          2/4/2022   5:56 PM                ProgramData
+d-----         2/21/2021   2:20 PM                RM
+d-----          2/7/2022   6:55 PM                temp
+d-----          2/4/2022   5:56 PM                tools
+d-r---        10/21/2021  11:05 PM                Users
+d-----         1/27/2022   4:15 PM                Windows
+
+
+151: write something in a file called recommend.txt
+
+PS C:\> cd users
+PS C:\users> cd aleks
+PS C:\users\aleks> echo Im writing assignment > recommend.txt
+
+152: delete the last file you created
+
+PS C:\users\aleks> del recommend.txt
+
+153: create a directory advantage and move into the directory
+
+PS C:\users\aleks> mkdir  advantage
+mkdir : An item with the specified name C:\users\aleks\advantage already exists.
+At line:1 char:1
++ mkdir  advantage
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\users\aleks\advantage:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\users\aleks> cd  advantage
+
+154: create a file called pioneer.txt and rename it so that it's called appreciate.txt instead. Hint: This should be done in 2 commands
+
+PS C:\users\aleks\advantage> cd . > pioneer.txt
+PS C:\users\aleks\advantage> mv pioneer.txt  appreciate.txt
+
+155: delete the last folder you created
+
+PS C:\users\aleks\advantage> del appreciate.txt
+
+156: create a directory advantage and move into the directory
+
+PS C:\users\aleks\advantage> mkdir advantage
+
+
+    Directory: C:\users\aleks\advantage
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:43 PM                advantage
+
+
+PS C:\users\aleks\advantage> cd advantage
+PS C:\users\aleks\advantage\advantage>
+
+
+157: delete the last folder you created
+
+PS C:\users\aleks\advantage\advantage> cd..
+PS C:\users\aleks\advantage> rmdir advantage
+PS C:\users\aleks\advantage>
+
+158: create a file called speculate.txt and immediately delete it
+
+PS C:\users\aleks\advantage> cd . > speculate.txt
+PS C:\users\aleks\advantage> del speculate.txt
+
+159: output the full path you are on
+
+PS C:\users\aleks\advantage> pwd
+
+Path
+----
+C:\users\aleks\advantage
+
+
+160: if there are any directories in the folder then move inside any one of them
+
+None.
+
+PS C:\users\aleks\advantage> dir
+PS C:\users\aleks\advantage>
+
+161: create a file called proportion.txt and immediately delete it
+
+PS C:\users\aleks\advantage> cd . > proportion.txt
+PS C:\users\aleks\advantage> del proportion.txt
+
+162: if there are any directories in the folder then move inside any one of them
+
+None.
+
+PS C:\users\aleks\advantage> dir
+PS C:\users\aleks\advantage>
+
+163: echo 'difficulty advice on degree surprise' into the file
+
+PS C:\users\aleks\advantage> echo difficulty advice on degree surprise > emptyF.txt
+
+164: create a file called degree.txt and rename it so that it's called advantage.txt instead. Hint: This should be done in 2 commands
+
+PS C:\users\aleks\advantage> cd . > degree.txt
+PS C:\users\aleks\advantage> mv degree.txt advantage.txt
+
+165: output hidden files
+
+PS C:\users\aleks\advantage> attrib -h -r -s /s /d C:\*.*
+
+166: echo 'degree bay needle ethics pray' into the file
+
+PS C:\users\aleks\advantage> echo degree bay needle ethics pray > randOm.txt
+
+167: output who the active user is
+
+PS C:\users\aleks> whoami
+laptop-vt2lpb20\aleks
+
+168: move one level up
+
+PS C:\users\aleks\advantage> cd..
+PS C:\users\aleks>
+
+169: create a directory correspondence and move into the directory
+
+PS C:\users\aleks\advantage> mkdir  correspondence
+
+
+    Directory: C:\users\aleks\advantage
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:48 PM                correspondence
+
+
+PS C:\users\aleks\advantage> cd  correspondence
+PS C:\users\aleks\advantage\correspondence>
+
+170: output who the active user is
+
+PS C:\users\aleks> whoami
+laptop-vt2lpb20\aleks
+
+171: create a file called correspondence.txt and rename it so that it's called cater.txt instead. Hint: This should be done in 2 commands
+
+PS C:\users\aleks\advantage\correspondence> cd . > correspondence.txt
+PS C:\users\aleks\advantage\correspondence> mv correspondence.txt cater.txt
+
+172: output the sizes of the files in the directory
+
+PS C:\users\aleks\advantage\correspondence> dir
+
+
+    Directory: C:\users\aleks\advantage\correspondence
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/15/2022   4:49 PM              0 cater.txt
+This command should show the size as well, except that I cannot find another one.
+
+
+173: create a file called pioneer.txt
+
+PS C:\users\aleks\advantage\correspondence> cd . > pioneer.txt
+
+174: if there are any directories in the folder then move inside any one of them
+
+None. Just files. 
+
+PS C:\users\aleks\advantage\correspondence> ls
+
+
+    Directory: C:\users\aleks\advantage\correspondence
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/15/2022   4:49 PM              0 cater.txt
+-a----         2/15/2022   4:51 PM              0 pioneer.txt
+
+
+175: if there are any directories in the folder then move inside any one of them
+
+None. Just files. 
+
+PS C:\users\aleks\advantage\correspondence> ls
+
+
+    Directory: C:\users\aleks\advantage\correspondence
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/15/2022   4:49 PM              0 cater.txt
+-a----         2/15/2022   4:51 PM              0 pioneer.txt
+
+176: create a file called pray.txt
+
+PS C:\users\aleks\advantage\correspondence> pray.txt
+
+177: create two directories abortion and recommend and move into recommend
+
+PS C:\users\aleks\advantage\correspondence> mkdir abortion
+
+
+    Directory: C:\users\aleks\advantage\correspondence
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:53 PM                abortion
+
+
+PS C:\users\aleks\advantage\correspondence> mkdir recommend
+
+
+    Directory: C:\users\aleks\advantage\correspondence
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:53 PM                recommend
+
+
+PS C:\users\aleks\advantage\correspondence> cd recommend
+PS C:\users\aleks\advantage\correspondence\recommend>
+
+178: create two directories pray and shallow and move into shallow
+
+PS C:\users\aleks\advantage\correspondence\recommend> mkdir pray
+
+
+    Directory: C:\users\aleks\advantage\correspondence\recommend
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:54 PM                pray
+
+
+PS C:\users\aleks\advantage\correspondence\recommend> mkdir shallow
+
+
+    Directory: C:\users\aleks\advantage\correspondence\recommend
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:54 PM                shallow
+
+
+PS C:\users\aleks\advantage\correspondence\recommend> cd shallow
+PS C:\users\aleks\advantage\correspondence\recommend\shallow>
+
+179: output the sizes of the files in the directory
+
+It is empty.
+PS C:\users\aleks\advantage\correspondence\recommend\shallow> dir
+PS C:\users\aleks\advantage\correspondence\recommend\shallow>
+
+180: create a file called correspondence.txt
+
+181: create a file called needle.txt. Put the text 'shot on rain abortion interference' in it and copy it so there is also a stock.txt with same content
+
+PS C:\users\aleks\advantage\correspondence\recommend\shallow> cd . > needle.txt
+PS C:\users\aleks\advantage\correspondence\recommend\shallow> echo shot on rain abortion interference > needle.txt
+PS C:\users\aleks\advantage\correspondence\recommend\shallow> copy needle.txt stock.txt
+
+182: create a file called ditch.txt and rename it so that it's called regret.txt instead. Hint: This should be done in 2 commands
+
+PS C:\users\aleks\advantage\correspondence\recommend\shallow> cd . > ditch.txt
+PS C:\users\aleks\advantage\correspondence\recommend\shallow> mv ditch.txt regret.txt
+
+183: create a file called needle.txt
+
+PS C:\users\aleks\advantage\correspondence\recommend\shallow> cd . > needle.txt
+
+184: create a file called evaluate.txt and immediately delete it
+
+PS C:\users\aleks\advantage\correspondence\recommend\shallow> cd . > evaluate.txt
+PS C:\users\aleks\advantage\correspondence\recommend\shallow> del evaluate.txt
+
+185: open a file in the terminal and see the content
+
+It is empty 
+
+PS C:\users\aleks\advantage\correspondence\recommend\shallow> type regret.txt
+
+186: move one level up
+
+PS C:\users\aleks\advantage\correspondence\recommend\shallow> cd..
+PS C:\users\aleks\advantage\correspondence\recommend>
+
+187: delete the last folder you created
+
+PS C:\users\aleks\advantage\correspondence\recommend\shallow> cd..
+PS C:\users\aleks\advantage\correspondence\recommend> rmdir shallow
+
+Confirm
+The item at C:\users\aleks\advantage\correspondence\recommend\shallow has children and the Recurse parameter
+was not specified. If you continue, all children will be removed with the item. Are you sure you want to
+continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): Y
+PS C:\users\aleks\advantage\correspondence\recommend>
+
+188: create a directory ditch and move into the directory
+
+PS C:\users\aleks\advantage\correspondence\recommend> mkdir ditch
+
+
+    Directory: C:\users\aleks\advantage\correspondence\recommend
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:57 PM                ditch
+
+
+PS C:\users\aleks\advantage\correspondence\recommend> cd ditch
+PS C:\users\aleks\advantage\correspondence\recommend\ditch>
+
+189: move two folders up
+
+PS C:\users\aleks\advantage\correspondence\recommend\ditch> cd ../../
+PS C:\users\aleks\advantage\correspondence>
+
+190: create a file called architecture.txt
+
+PS C:\users\aleks\advantage\correspondence> cd . > architecture.txt
+
+191: open a file in the terminal and see the content
+
+It is empty 
+
+PS C:\users\aleks\advantage\correspondence> type  architecture.txt
+
+192: echo 'rider rider ethics evaluate abortion' into the file
+
+PS C:\users\aleks\advantage\correspondence> echo rider rider ethics evaluate abortion > architecture.txt
+
+193: create a directory evaluate and move into the directory
+
+PS C:\users\aleks\advantage\correspondence> mkdir evaluate
+
+
+    Directory: C:\users\aleks\advantage\correspondence
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:59 PM                evaluate
+
+
+PS C:\users\aleks\advantage\correspondence> cd evaluate
+PS C:\users\aleks\advantage\correspondence\evaluate>
+
+194: output what's in the directory
+
+It is empty 
+
+PS C:\users\aleks\advantage\correspondence\evaluate> ls
+
+195: create a file called difficulty.txt and rename it so that it's called recommend.txt instead. Hint: This should be done in 2 commands
+
+PS C:\users\aleks\advantage\correspondence\evaluate> cd . > difficulty.txt
+PS C:\users\aleks\advantage\correspondence\evaluate> mv difficulty.txt  recommend.txt
+
+196: output what's in the directory
+
+PS C:\users\aleks\advantage\correspondence\evaluate> ls
+
+
+    Directory: C:\users\aleks\advantage\correspondence\evaluate
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/15/2022   4:59 PM              0 recommend.txt
+
+
+197: create a file called ethics.txt. Put the text 'panel shallow bay hill salvation' in it and copy it so there is also a pioneer.txt with same content
+
+PS C:\users\aleks\advantage\correspondence\evaluate> cd . > ethics.txt
+PS C:\users\aleks\advantage\correspondence\evaluate> echo panel shallow bay hill salvation > ethics.txt
+PS C:\users\aleks\advantage\correspondence\evaluate> copy ethics.txt pioneer.txt
+
+198: output the full path you are on
+
+PS C:\users\aleks\advantage\correspondence\evaluate> pwd
+
+Path
+----
+C:\users\aleks\advantage\correspondence\evaluate
+
+
+
+199: create a file called stock.txt and immediately delete it
+
+PS C:\users\aleks\advantage\correspondence\evaluate> cd . > stock.txt
+PS C:\users\aleks\advantage\correspondence\evaluate> del stock.txt
+
+200: create a directory cousin and move into the directory
+
+PS C:\users\aleks\advantage\correspondence\evaluate> mkdir cousin
+
+
+    Directory: C:\users\aleks\advantage\correspondence\evaluate
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   5:01 PM                cousin
+
+
+PS C:\users\aleks\advantage\correspondence\evaluate> cd cousin
+PS C:\users\aleks\advantage\correspondence\evaluate\cousin>
+
+201: output the content of any file in the directory
+
+It is empty 
+
+PS C:\users\aleks\advantage\correspondence\evaluate\cousin> ls
+
+202: delete the last file you created
+
+PS C:\users\aleks\advantage\correspondence\evaluate> cd..
+PS C:\users\aleks\advantage\correspondence> ls
+
+
+    Directory: C:\users\aleks\advantage\correspondence
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:53 PM                abortion
+d-----         2/15/2022   5:01 PM                evaluate
+d-----         2/15/2022   4:57 PM                recommend
+-a----         2/15/2022   4:58 PM             86 architecture.txt
+-a----         2/15/2022   4:49 PM              0 cater.txt
+-a----         2/15/2022   4:51 PM              0 pioneer.txt
+-a----         2/15/2022   4:53 PM              0 pray.txt
+
+
+PS C:\users\aleks\advantage\correspondence> del abortion
+
+203: create a file called medal.txt and immediately delete it
+
+PS C:\users\aleks\advantage\correspondence> cd . > medal.txt
+PS C:\users\aleks\advantage\correspondence> del medal.txt
+
+204: create two directories interference and advantage and move into advantage
+
+PS C:\users\aleks\advantage\correspondence> mkdir interference
+
+
+    Directory: C:\users\aleks\advantage\correspondence
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   5:05 PM                interference
+
+
+PS C:\users\aleks\advantage\correspondence> mkdir advantage
+
+
+    Directory: C:\users\aleks\advantage\correspondence
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   5:05 PM                advantage
+
+
+PS C:\users\aleks\advantage\correspondence> cd advantage
+PS C:\users\aleks\advantage\correspondence\advantage>
+
+205: create a file called evaluate.txt
+
+PS C:\users\aleks\advantage\correspondence\advantage> cd . > evaluate.txt
+
+206: output who the active user is
+
+PS C:\users\aleks\advantage\correspondence\advantage> whoami
+laptop-vt2lpb20\aleks
+
+207: create a file called sister.txt and immediately delete it
+
+PS C:\users\aleks\advantage\correspondence\advantage> cd . > sister.txt
+PS C:\users\aleks\advantage\correspondence\advantage> del sister.txt
+
+208: create a file called advantage.txt and immediately delete it
+
+PS C:\users\aleks\advantage\correspondence\advantage> cd . > advantage.txt
+PS C:\users\aleks\advantage\correspondence\advantage> del advantage.txt
+
+209: if there are any directories in the folder then move inside any one of them
+
+None
+
+PS C:\users\aleks\advantage\correspondence\advantage> ls
+
+
+    Directory: C:\users\aleks\advantage\correspondence\advantage
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/15/2022   5:05 PM              0 evaluate.txt
+
+210: if there are any directories in the folder then move inside any one of them
+
+None
+
+PS C:\users\aleks\advantage\correspondence\advantage> ls
+
+
+    Directory: C:\users\aleks\advantage\correspondence\advantage
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/15/2022   5:05 PM              0 evaluate.txt
+
+211: create two directories abortion and shot and move into shot
+
+PS C:\users\aleks\advantage\correspondence\advantage> mkdir abortion
+
+
+    Directory: C:\users\aleks\advantage\correspondence\advantage
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   5:07 PM                abortion
+
+
+PS C:\users\aleks\advantage\correspondence\advantage> mkdir shot
+
+
+    Directory: C:\users\aleks\advantage\correspondence\advantage
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   5:07 PM                shot
+
+
+PS C:\users\aleks\advantage\correspondence\advantage> cd shot
+PS C:\users\aleks\advantage\correspondence\advantage\shot>
+
+212: if there are any directories in the folder then move inside any one of them
+
+None 
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot> ls
+
+213: create two directories cousin and regret and move into regret
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot> mkdir cousin
+
+
+    Directory: C:\users\aleks\advantage\correspondence\advantage\shot
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   5:07 PM                cousin
+
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot> mkdir regret
+
+
+    Directory: C:\users\aleks\advantage\correspondence\advantage\shot
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   5:08 PM                regret
+
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot> cd regret
+PS C:\users\aleks\advantage\correspondence\advantage\shot\regret>
+
+214: create a file called evaluate.txt
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot\regret> cd . > evaluate.txt
+
+215: output what's in the directory
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot\regret> ls
+
+
+    Directory: C:\users\aleks\advantage\correspondence\advantage\shot\regret
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/15/2022   5:08 PM              0 evaluate.txt
+
+
+
+216: create a file called support.txt and immediately delete it
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot\regret> cd . > support.txt
+PS C:\users\aleks\advantage\correspondence\advantage\shot\regret> del support.txt
+
+217: write something in a file called needle.txt
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot\regret> echo Something happened > needle.txt
+
+218: if there are any directories in the folder then move inside any one of them
+
+None 
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot\regret> ls
+
+
+    Directory: C:\users\aleks\advantage\correspondence\advantage\shot\regret
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/15/2022   5:08 PM              0 evaluate.txt
+-a----         2/15/2022   5:09 PM             44 needle.txt
+
+
+
+219: create a directory discover and move into the directory
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot\regret> mkdir discover
+
+
+    Directory: C:\users\aleks\advantage\correspondence\advantage\shot\regret
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   5:10 PM                discover
+
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot\regret> cd discover
+PS C:\users\aleks\advantage\correspondence\advantage\shot\regret\discover>
+
+220: output hidden files
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot\regret> attrib -h -r -s /s /d C:\*.*
+
+221: create a file called degree.txt
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot\regret\discover> cd . > degree.txt
+
+222: move two folders up
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot\regret\discover> cd ../../
+PS C:\users\aleks\advantage\correspondence\advantage\shot>
+
+223: move one level up
+
+PS C:\users\aleks\advantage\correspondence\advantage\shot> cd..
+PS C:\users\aleks\advantage\correspondence\advantage>
+
+224: output the sizes of the files in the directory
+
+PS C:\users\aleks\advantage\correspondence\advantage> dir
+
+
+    Directory: C:\users\aleks\advantage\correspondence\advantage
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   5:07 PM                abortion
+d-----         2/15/2022   5:08 PM                shot
+-a----         2/15/2022   5:05 PM              0 evaluate.txt
+This command should show the size as well, except that I cannot find another one.
+
+
+225: if there are any directories in the folder then move inside any one of them
+
+None
+
+PS C:\users\aleks\advantage\correspondence\advantage> ls
+
+
+    Directory: C:\users\aleks\advantage\correspondence\advantage
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   5:07 PM                abortion
+d-----         2/15/2022   5:08 PM                shot
+-a----         2/15/2022   5:05 PM              0 evaluate.txt
+
+226: delete the last folder you created
+
+PS C:\users\aleks\advantage\correspondence\advantage> cd..
+PS C:\users\aleks\advantage\correspondence> rmdir advantage
+
+Confirm
+The item at C:\users\aleks\advantage\correspondence\advantage has children and the Recurse parameter was not
+specified. If you continue, all children will be removed with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): Y
+PS C:\users\aleks\advantage\correspondence>
+
+227: create a file called advantage.txt and rename it so that it's called recession.txt instead. Hint: This should be done in 2 commands
+
+S C:\users\aleks\advantage\correspondence> cd . > advantage.txt
+PS C:\users\aleks\advantage\correspondence> mv advantage.txt recession.txt
+
+228: delete the last file you created
+
+PS C:\users\aleks\advantage\correspondence> del pray.txt
+
+229: delete the last file you created
+
+PS C:\users\aleks\advantage\correspondence> del recession.txt
+
+230: create a file called on.txt and rename it so that it's called ditch.txt instead. Hint: This should be done in 2 commands
+
+PS C:\users\aleks\advantage\correspondence> cd . > on.txt
+PS C:\users\aleks\advantage\correspondence> mv on.txt  ditch.txt
+
+231: output who the active user is
+
+PS C:\users\aleks\advantage\correspondence> whoami
+laptop-vt2lpb20\aleks
+
+232: create two directories advantage and degree and move into degree
+
+PS C:\users\aleks\advantage\correspondence> mkdir advantage
+
+
+    Directory: C:\users\aleks\advantage\correspondence
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   5:16 PM                advantage
+
+
+PS C:\users\aleks\advantage\correspondence> mkdir degree
+
+
+    Directory: C:\users\aleks\advantage\correspondence
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   5:16 PM                degree
+
+
+PS C:\users\aleks\advantage\correspondence> cd degree
+PS C:\users\aleks\advantage\correspondence\degree>
+
+233: if there are any directories in the folder then move inside any one of them
+
+None
+
+PS C:\users\aleks\advantage\correspondence\degree> ls
+
+234: output hidden files
+
+PS C:\users\aleks\advantage\correspondence\degree> attrib -h -r -s /s /d C:\*.*
+
+235: if there are any directories in the folder then move inside any one of them
+
+None
+
+PS C:\users\aleks\advantage\correspondence\degree> ls
+
+
+236: output what's in the directory
+
+It is empty 
+
+PS C:\users\aleks\advantage\correspondence\degree> ls
+
+237: output who the active user is
+
+PS C:\users\aleks\advantage\correspondence\degree> whoami
+laptop-vt2lpb20\aleks
+
+238: move two folders up
+
+PS C:\users\aleks\advantage\correspondence\degree> cd ../../
+PS C:\users\aleks\advantage>
+
+239: create two directories needle and medal and move into medal
+
+PS C:\users\aleks\advantage> mkdir needle
+
+
+    Directory: C:\users\aleks\advantage
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   5:18 PM                needle
+
+
+PS C:\users\aleks\advantage> mkdir medal
+
+
+    Directory: C:\users\aleks\advantage
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   5:18 PM                medal
+
+
+PS C:\users\aleks\advantage> cd medal
+PS C:\users\aleks\advantage\medal>
+
+240: delete the last folder you created
+
+PS C:\users\aleks\advantage\medal> cd..
+PS C:\users\aleks\advantage> rmdir medal
+
+241: move two folders up
+
+PS C:\users\aleks\advantage> cd ../../
+PS C:\users>
+
+242: open a file in the terminal and see the content
+
+There is none 
+
+PS C:\users> ls
+
+
+    Directory: C:\users
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:38 PM                aleks
+d-----         3/29/2021   1:51 PM                defaultuser100000
+d-r---        10/21/2021  10:52 PM                Public
+
+243: output what's in the directory
+
+PS C:\users> ls
+
+
+    Directory: C:\users
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2/15/2022   4:38 PM                aleks
+d-----         3/29/2021   1:51 PM                defaultuser100000
+d-r---        10/21/2021  10:52 PM                Public
+
+244: create a file called speculate.txt and immediately delete it
+
+Need to move first to another directory.
+
+PS C:\users> cd aleks
+PS C:\users\aleks> cd . > speculate.txt
+PS C:\users\aleks> del speculate.txt
+
+245: output hidden files
+
+PS C:\users\aleks> attrib -h -r -s /s /d C:\*.*
+
+246: open a file in the terminal and see the content
+
+It is empty 
+
+PS C:\users\aleks> type random.txt
+
+247: delete the last folder you created
+
+PS C:\users\aleks> cd advantage
+PS C:\users\aleks\advantage> rmdir needle
+
+248: output the full path you are on
+
+PS C:\users\aleks\advantage> pwd
+
+Path
+----
+C:\users\aleks\advantage
+
+
+
+249: move one level up
+
+PS C:\users\aleks\advantage> cd..
+PS C:\users\aleks>
+
+250: create a file called speculate.txt and immediately delete it
+
+PS C:\users\aleks> cd . > speculate.txt
+PS C:\users\aleks> del speculate.txt
