@@ -1,0 +1,17 @@
+6 relational databases:
+ SQLite
+ MySQL
+ Amazon Aurora
+ Microsoft SQL Server
+ Oracle Database
+ PostgreSQL
+
+1 of each:
+ Key-Value Stores: Amazon DynamoDB
+ Document Database: OrientDB
+ Columnar Database: Apache Cassandra
+ Graph Database: Neo4j
+
+2 in-memory databases:
+ Redis
+ Apache Ignite
